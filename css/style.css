@@ -1,0 +1,455 @@
+/************** general **************/
+body{
+    color:#666;
+}
+h6,h5,h4,h3,h2{
+    color:#000;
+}
+.mb-50{
+    margin-bottom: 100px;
+}
+.w-30{
+    width: 33.33%;
+}
+.mainBackgoundColor{
+    background-color: #f25454;
+}
+.mainColor{
+    color: #f25454;
+}
+.h-96{
+    height: 96%;
+}
+.subtitle{
+    max-width: 200px;
+    font-size: 3rem;
+}
+
+/************** navbar *******************/
+.navbar{
+    font-size:.9rem;
+    top:0;
+    right:0;
+    left:0;
+    z-index: 9999999999;
+}
+.navbar-light .navbar-nav .active>.nav-link{
+    color: #f25454;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: rgba(0,0,0,.8);
+}
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #f25454;
+}
+
+/************ carousel ******************/
+.carousel .first::after{
+    content:"We build great brands.";
+    position: absolute;
+    top: 50%;
+    right: 50%;
+    transform: translate(50% , -50%);
+    font-size:5rem;
+    max-width: 700px;
+    color:#fff;
+    font-weight: bolder;
+    text-align: center;
+    line-height: 1;
+    animation: enter 2s ;
+}
+.carousel .second::after{
+    content:"Focused on strategy.";
+    position: absolute;
+    top: 50%;
+    right: 50%;
+    transform: translate(50% , -50%);
+    font-size:5rem;
+    max-width: 700px;
+    color:#fff;
+    font-weight: bolder;
+    text-align: center;
+    line-height: 1;
+    animation: enter 2s ;
+}
+.carousel .third::after{
+    content:"Advanced in digital works.";
+    position: absolute;
+    top: 50%;
+    right: 50%;
+    transform: translate(50% , -50%);
+    font-size:5rem;
+    max-width: 700px;
+    color:#fff;
+    font-weight: bolder;
+    text-align: center;
+    line-height: 1;
+    animation: enter 2s ;
+}
+@keyframes enter{
+    0%{
+        right: 0%;
+    }
+    100%{
+        right: 50%;
+    }
+}
+
+/********************* fixed icon ********************/
+/* cog */
+.fixed-icon .cog{
+    top:20%;
+    left:0;
+    padding: 10px;
+    border-radius: 3px;
+}
+/* scroll */
+.fixed-icon .scroll{
+    bottom: 5%;
+    left:50%;
+    transform: translatex(-50%);
+    width: 30px;
+    height: 45px;
+    border: 1px solid #fff;
+    border-radius: 50px;
+    cursor: pointer;
+}
+.fixed-icon .scroll::after{
+    content: "";
+    width: 10px;
+    height: 10px;
+    background-color: #fff;
+    border-radius: 50%;
+    position: absolute;
+    top: 10%;
+    left:50%;
+    transform: translatex(-50%);
+    animation: hide 1s 1s infinite linear;
+}
+.fixed-icon .scroll:hover{
+    border: 1px solid #f25454;
+}
+.fixed-icon .scroll:hover::after{
+    background-color: #f25454;
+}
+@keyframes hide{
+    0%{
+        top:10%;
+        opacity: 1;
+    }
+    100%{
+        top: 40%;
+        opacity: 0;
+    }
+}
+/* up / down */
+#home .up{
+    top:50%;
+    left:0;
+    transform: translateY(-50%);
+    position: relative;
+}
+#home .up i{
+    color: #fff;
+    padding: 20px;
+    border: 1px solid #fff;
+    font-size: 20px;
+}
+#home .up:hover .layer-1{
+    animation: change 2s;
+}
+@keyframes change{
+    0%{
+        background-color: transparent;
+        color: #fff;
+        left:0;
+    }
+    100%{
+        background-color: #fff;
+        color: #f25454;
+        left: 100%;
+    }
+}
+/*****************************************end home****************************************************/
+
+/********************* about ******************/
+#about{
+    margin: 100px 0 200px 0;
+}
+/********************* about content ***************/
+.content{
+    margin: 100px 0 80px 0;
+}
+.content .main-text{
+    margin: 15px 0;
+    text-align: center;
+    position: relative;
+}
+.content .main-text h2{
+    font-weight: bolder;
+    font-size: 40px;
+    color:#000;
+}
+.content .main-text h2::before{
+    content:"A";
+    font-size: 65px;
+    font-weight: bolder;
+    color: rgba(0,0,0,.1);
+    position: absolute;
+    bottom:0px;
+    left: 50%;
+    transform: translatex(-50%);
+}
+.content .line{
+    width: 40px;
+    height: 1px;
+    margin :auto;
+    background: #000;
+    transition: 1s;
+    
+}
+.content:hover .line{
+    width: 60px;
+}
+.main-p{
+    font-size: 18px;
+    color: #999;
+    margin: 20px auto;
+    max-width: 700px;
+    text-align: center;
+    font-weight: 500;
+}
+/**************************** progress **********************/
+.progress{
+    height: 5px; 
+}
+span{
+    margin-left: 50%;
+}
+
+/*****************************************end about****************************************************/
+
+/********************* team ******************/
+#team{
+    margin-bottom: 50px;
+}
+#team .content .main-text h2::before{
+    content:"O";
+    font-size: 65px;
+    font-weight: bolder;
+    color: rgba(0,0,0,.1);
+    position: absolute;
+    bottom:0px;
+    left: 50%;
+    transform: translatex(-50%);
+}
+#team .member .icon{
+    top:0;
+    right: 0;
+    left:0;
+    bottom: 0;
+    cursor: pointer;
+    opacity: 0;
+}
+#team .member .icon:hover{
+    opacity: .8;
+}
+#team .blog:hover h5{
+    color:#f25454;
+}
+/***************************************** end team ****************************************************/
+
+/********************* service ******************/
+#service{
+    padding: 50px 0;
+    background-color: #fafafa;
+}
+#service .content .main-text h2::before{
+    content:"S";
+    font-size: 65px;
+    font-weight: bolder;
+    color: rgba(0,0,0,.1);
+    position: absolute;
+    bottom:0px;
+    left: 50%;
+    transform: translatex(-50%);
+}
+#service .row .p-h{
+    margin-bottom: 20px;
+}
+#service .row .p-h h3{
+    font-size: 20px;
+    padding-bottom:8px ;
+}
+#service .row .p-h h3:hover{
+    color:#f25454
+}
+#service .row .icon{
+    font-size: 14px;
+}
+/***************************************** end service ****************************************************/
+
+/********************* client ******************/
+/* contant */
+#client .content .main-text h2::before{
+    content:"C";
+    font-size: 65px;
+    font-weight: bolder;
+    color: rgba(0,0,0,.1);
+    position: absolute;
+    bottom:0px;
+    left: 50%;
+    transform: translatex(-50%);
+}
+#client img{
+    width: 130px;
+    height: 130px;
+    cursor: pointer; 
+}  
+#client .little-img{
+    transform: scale(0.8 , 0.8);
+    opacity: 0.5;
+    cursor: pointer;
+}
+#client .head3 h3{
+    font-size: 1rem ;
+    color:#282828 ;
+}   
+#client h4{
+    font-size: 0.9rem;
+    color: #666666;
+}  
+#client .client-p {
+    font-size: 1.5rem ;
+    color: #666666;
+    line-height: 1.7;
+}  
+#client i{
+    color: #444444;
+}             
+/***************************************** end client ****************************************************/
+
+/******************* contact ******************/
+#contact{
+    background-color: #fafafa;
+    padding: 10px 0 100px 0;
+}
+/* contant */
+#contact .content .main-text h2::before{
+    content:"G";
+    font-size: 65px;
+    font-weight: bolder;
+    color: rgba(0,0,0,.1);
+    position: absolute;
+    bottom:0px;
+    left: 50%;
+    transform: translatex(-50%);
+}
+#contact .inner h5{
+    font-weight: bold;
+}
+#contact .inner h5:hover{
+    color: #f25454;
+    cursor: pointer;
+}
+/* form */
+#contact form input, #contact form textarea{
+    padding: 14px 18px;
+    color: #a6a6a6;
+    border-radius: 3px;
+    border: 2px solid #eee;
+    background-color: #fff;
+}
+/***************************************** end contact ****************************************************/
+
+/******************* footer ******************/
+/* #footer::before */
+#footer .fixed{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    position: absolute;
+    top:-7%;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #f25454;
+    opacity: .5;
+    transition:.7s;
+}
+#footer .fixed i{
+    color: #fff;
+    font-size: 18px;
+    margin: 50% 0 0 50%;
+    transform: translate(-50% , -50%);
+}
+#footer .fixed:hover{
+    opacity: 1;
+    cursor: pointer;
+}
+#footer{
+    background-image: url(../images/dotted-map.png);
+    background-size: 100% 100%;
+    background-position: center center;
+    background-color: #222;
+    padding: 60px 0 ;
+    color: #b0b0b0;
+    position: relative;
+}
+#footer .logo{
+    margin-bottom: 50px;
+}
+#footer a{
+    color: #b0b0b0;
+    display: block;
+}
+#footer a:hover{
+    color: #f25454;
+}
+#footer button{
+    border: 1px solid #999;
+    background-color: transparent;
+    color:#b0b0b0 ;
+    padding: 3px 10px;
+    margin: 5px;
+    border-radius: 4px;
+    transition: .9s;
+}
+#footer button:hover{
+    color: #f25454;
+    border: 1px solid #f25454;
+}
+
+#footer .pro:hover{
+    color: #f25454 !important;
+    cursor: pointer;
+}
+/***************************************** end footer ****************************************************/
+
+/******************* logo ******************/
+#logo{
+    padding: 15px 0;
+    background-color: #1a1a1a;
+}
+#logo i{
+    margin: 0 10px;
+    color: #fff;
+    font-size: 16px;
+    transition:.5s;
+}
+#logo i:hover{
+    color: #f25454;
+} 
+.spicial a:hover{
+    color: #f25454 !important;
+    cursor: pointer;
+}
+/***************************************** end logo ****************************************************/
+
+@media only screen and (max-width:800px){
+    .prog{
+        padding: 30px;
+    }
+    #footer .logo .item h5{
+        padding: 90px 0;
+    }
+}

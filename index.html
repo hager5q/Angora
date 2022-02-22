@@ -1,0 +1,552 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <section id="home">
+      <!-- navbar -->
+      <nav class="navbar position-fixed navbar-expand-lg navbar-light bg-white text-black font-weight-bold">
+        <div class="container">
+          <a class="navbar-brand" href="#"><img src="images/logo-red.png" alt=""></a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item active">
+                <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+              </li><li class="nav-item">
+                <a class="nav-link" href="#about">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#team">Team</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#question">Projects</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#service">Services</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#client">Blog</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contact">Contact</a>
+              </li>
+              <div class="nav-icon d-flex align-items-center justify-content-around ml-5">
+                <li class="nav-item p-2">
+                    <a class="nav-link" href="#"><i class="fab fa-twitter"></i></a>
+                </li>
+                <li class="nav-item p-2">
+                    <a class="nav-link" href="#"><i class="fab fa-facebook-f"></i></a>
+                </li>
+                <li class="nav-item p-2">
+                    <a class="nav-link" href="#"><i class="fab fa-instagram"></i></a>
+                </li>
+              </div>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <!-- carousel -->
+      <div>
+          <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+              <div class="carousel-inner vh-100">
+                <div class="carousel-item first active">
+                  <img class="d-block w-100 vh-100" src="images/slideshow-1.jpg" alt="First slide">
+                </div>
+                <div class="carousel-item second">
+                  <img class="d-block w-100 vh-100" src="images/slideshow-2.jpg" alt="Second slide">
+                </div>
+                <div class="carousel-item third">
+                  <img class="d-block w-100 vh-100" src="images/slideshow-3.jpg" alt="Third slide">
+                </div>
+              </div>
+              <div class="">
+                <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                  <!-- <span class="carousel-control-prev-icon" aria-hidden="true"></span>  -->
+                  <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="next">
+                  <!-- <span class="carousel-control-next-icon" aria-hidden="true"></span> -->
+                  <span class="sr-only">Next</span>
+                </a>
+              </div>
+            </div>
+      </div>
+
+      <!-- fixed-icon -->
+      <div class="fixed-icon">
+        <!-- cog -->
+        <div class="cog position-fixed text-white bg-dark">
+          <i class="fas fa-cogs"></i>
+        </div>
+        <!-- scroll -->
+        <a href="#about"><div class="scroll position-absolute"></div></a> 
+        <!-- up / down -->
+        <div class="up position-absolute d-flex flex-column">
+          <div class="layer-1">
+              <i class="fas fa-chevron-left "></i>
+          </div>
+          <div class="layer-2">
+            <i class="fas fa-chevron-right border-top-0"></i>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ************************ end home ********************************* -->
+
+    <!-- about -->
+    <section id="about">
+      <div class="container">
+        <!-- content -->
+        <div class="content">
+          <div class="main-text d-flex flex-column ">
+            <h2>About Us</h2>
+          </div>
+          <div class="line"></div>
+          <p class="main-p">Pellentesque elementum libero enim, eget gravida nunc laoreet et. Nullam ac enim auctor, fringilla risus at, imperdiet turpis. Pellentesque elementum libero enim.</p>
+        </div>
+        <!-- row -->
+        <div class="row d-flex flex-row">
+          <!-- pragraph -->
+          <div class="col-lg-7">
+            <div class="">
+              <p class="text-gray">Pellentesque vel elit egestas, pretium est ac, convallis orci. Vivamus sem nisl, tristique vel fringilla vitae, efficitur at eros. Duis aliquet aliquet pharetra. Suspendisse bibendum erat quis gravida pulvinar. Phasellus vel eros porta, blandit dui ac, viverra felis.</p>
+              <p>Nunc placerat iaculis pulvinar. Nullam auctor mauris sed urna posuere volutpat. Mauris ut dui sit amet elit fermentum fermentum. Fusce tincidunt diam at bibendum porta.</p>
+              <p>Aliquam nunc felis, sagittis eu purus non, interdum vehicula urna. Vivamus congue diam sapien, eu pellentesque ipsum ultricies quis.</p>
+            </div>
+          </div>
+          <!-- progress -->
+          <div class="col-lg-5 prog">
+                <p class="mb-2">Branding <span class="position-absolute">80%</span></p>
+                <div class="progress mb-4">
+                  <div class="progress-bar bg-danger" role="progressbar" style="width: 80%" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+                <p class="mb-2">Web Design <span>95%</span></p>
+                <div class="progress mb-4">
+                  <div class="progress-bar bg-danger" role="progressbar" style="width: 95%" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+                <p class="mb-2">Graphic Design <span>85%</span></p>
+                <div class="progress mb-4">
+                  <div class="progress-bar bg-danger" role="progressbar" style="width: 85%" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+                <p class="mb-2">Development <span>70%</span></p>
+                <div class="progress mb-4">
+                  <div class="progress-bar bg-danger" role="progressbar" style="width: 70%" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ************************ end about ********************************* -->
+
+    <!-- team -->
+    <section id="team">
+      <div class="container">
+        <!-- content -->
+        <div class="content">
+            <div class="main-text d-flex flex-column ">
+              <h2>Our Team</h2>
+            </div>
+            <div class="line"></div>
+            <p class="main-p">Vestibulum ante ipsum primis in faucibus orci. Morbi tincidunt urna imperdiet tincidunt rhoncus. Sed mollis ligula non massa aliquam faucibus.</p>
+        </div>
+        <!-- our works -->
+        <div class="row d-flex justify-content-around text-center mb-50">
+          <!-- member-1 -->
+          <div class="col-lg-3 blog">
+            <div class="member position-relative overflow-hidden">
+              <img src="images/member-1.jpg" class="w-100 mb-3" alt="">
+              <div class="icon mainBackgoundColor position-absolute d-flex justify-content-around align-items-center px-5 h-96">
+                <i class="fab fa-twitter text-white"></i>
+                <i class="fab fa-facebook-f text-white"></i>
+                <i class="fab fa-linkedin-in text-white"></i>
+                <i class="fab fa-dribbble text-white"></i>
+              </div>
+            </div>
+            <div class="inner">
+              <h5 class="mb-0">Michael Broad</h5>
+              <p>Web Designer</p>
+            </div>
+          </div>
+          <!-- member-2 -->
+          <div class="col-lg-3 blog">
+            <div class="member position-relative overflow-hidden">
+              <img src="images/member-2.jpg" class="w-100 mb-3" alt="">
+              <div class="icon mainBackgoundColor position-absolute d-flex justify-content-around align-items-center px-5 h-96">
+                <i class="fab fa-twitter text-white"></i>
+                <i class="fab fa-facebook-f text-white"></i>
+                <i class="fab fa-linkedin-in text-white"></i>
+                <i class="fab fa-dribbble text-white"></i>
+              </div>
+            </div>
+            <div class="inner">
+              <h5 class="mb-0">Jeannette Crow</h5>
+              <p>CEO Founder</p>
+            </div>
+          </div>
+          <!-- member-3 -->
+          <div class="col-lg-3 blog">
+            <div class="member position-relative overflow-hidden">
+              <img src="images/member-3.jpg" class="w-100 mb-3" alt="">
+              <div class="icon mainBackgoundColor position-absolute d-flex justify-content-around align-items-center px-5 h-96">
+                <i class="fab fa-twitter text-white"></i>
+                <i class="fab fa-facebook-f text-white"></i>
+                <i class="fab fa-linkedin-in text-white"></i>
+                <i class="fab fa-dribbble text-white"></i>
+              </div>
+            </div>
+            <div class="inner">
+              <h5 class="mb-0">Martin Lawrence</h5>
+              <p>App Developer</p>
+            </div>
+          </div>
+          <!-- member-4 -->
+          <div class="col-lg-3 blog">
+            <div class="member position-relative overflow-hidden">
+              <img src="images/member-4.jpg" class="w-100 mb-3" alt="">
+              <div class="icon mainBackgoundColor position-absolute d-flex justify-content-around align-items-center px-5 h-96">
+                <i class="fab fa-twitter text-white"></i>
+                <i class="fab fa-facebook-f text-white"></i>
+                <i class="fab fa-linkedin-in text-white"></i>
+                <i class="fab fa-dribbble text-white"></i>
+              </div>
+            </div>
+            <div class="inner">
+              <h5 class="mb-0">Isabella Dowson</h5>
+              <p>Creative Director</p>
+            </div>
+          </div>
+        </div>
+        <!-- question -->
+        <div class="question d-flex justify-content-around mb-5">
+          <h2>Do you have any ideas?</h2>
+          <button class="mainBackgoundColor text-white border-0 py-2 px-4 rounded font-weight-bold">Contact Us</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- ************************ end team ********************************* -->
+
+    <!-- service -->
+    <section id="service">
+      <div class="container">
+        <!-- content -->
+        <div class="content">
+            <div class="main-text d-flex flex-column ">
+              <h2>Services</h2>
+            </div>
+            <div class="line"></div>
+            <p class="main-p">Nullam ac enim auctor, fringilla risus at, imperdiet turpis. Pellentesque elementum libero enim, eget gravida nunc laoreet et. Pellentesque elementum libero enim.</p>
+        </div>
+        <!-- items -->
+        <div class="row d-flex justify-content-around">
+          <!-- item-1 -->
+          <div class="col-lg-4">
+            <div class="item d-flex justify-content-around">
+                <div class="icon ">
+                  <i class="fas fa-laptop mainColor fa-2x p-2 pr-3"></i>
+                </div>
+              <div class="p-h">
+                <h3>Responsive Layout</h3>
+                <p>Ferri reque integre mea ut, eu eos vide errem noluise se. Putent laoreet et ius utroque dissentias ut.</p>
+              </div>
+            </div>
+          </div>
+          <!-- item-2 -->
+          <div class="col-lg-4">
+            <div class="item d-flex justify-content-around">
+                <div class="icon ">
+                  <i class="fas fa-pencil-ruler mainColor fa-2x p-2 pr-3"></i>
+                </div>
+              <div class="p-h">
+                <h3>Modern Design</h3>
+                <p>Ferri reque integre mea ut, eu eos vide errem noluise se. Putent laoreet et ius utroque dissentias ut.</p>
+              </div>
+            </div>
+          </div>
+          <!-- item-3 -->
+          <div class="col-lg-4">
+            <div class="item d-flex justify-content-around">
+                <div class="icon ">
+                  <i class="fas fa-flag mainColor fa-2x p-2 pr-3"></i>
+                </div>
+              <div class="p-h">
+                <h3>Font Awesome Icons</h3>
+                <p>Ferri reque integre mea ut, eu eos vide errem noluise se. Putent laoreet et ius utroque dissentias ut.</p>
+              </div>
+            </div>
+          </div>
+          <!-- item-4 -->
+          <div class="col-lg-4">
+            <div class="item d-flex justify-content-around">
+                <div class="icon ">
+                  <i class="fas fa-credit-card mainColor fa-2x p-2 pr-3"></i>
+                </div>
+              <div class="p-h">
+                <h3>Ajax Portfolio</h3>
+                <p>Ferri reque integre mea ut, eu eos vide errem noluise se. Putent laoreet et ius utroque dissentias ut.</p>
+              </div>
+            </div>
+          </div>
+          <!-- item-5 -->
+          <div class="col-lg-4">
+            <div class="item d-flex justify-content-around">
+                <div class="icon ">
+                  <i class="fas fa-cog mainColor fa-2x p-2 pr-3"></i>
+                </div>
+              <div class="p-h">
+                <h3>Color Options</h3>
+                <p>Ferri reque integre mea ut, eu eos vide errem noluise se. Putent laoreet et ius utroque dissentias ut.</p>
+              </div>
+            </div>
+          </div>
+          <!-- item-6 -->
+          <div class="col-lg-4">
+            <div class="item d-flex justify-content-around">
+                <div class="icon ">
+                  <i class="fas fa-headphones mainColor fa-2x p-2 pr-3"></i>
+                </div>
+              <div class="p-h">
+                <h3>Audio Support</h3>
+                <p>Ferri reque integre mea ut, eu eos vide errem noluise se. Putent laoreet et ius utroque dissentias ut.</p>
+              </div>
+            </div>
+          </div>
+          <!-- item-7 -->
+          <div class="col-lg-4">
+            <div class="item d-flex justify-content-around">
+                <div class="icon ">
+                  <i class="fas fa-scroll mainColor fa-2x p-2 pr-3"></i>
+                </div>
+              <div class="p-h">
+                <h3>Well Documented</h3>
+                <p>Ferri reque integre mea ut, eu eos vide errem noluise se. Putent laoreet et ius utroque dissentias ut.</p>
+              </div>
+            </div>
+          </div>
+          <!-- item-8 -->
+          <div class="col-lg-4">
+            <div class="item d-flex justify-content-around">
+                <div class="icon ">
+                  <i class="fas fa-video mainColor fa-2x p-2 pr-3"></i>
+                </div>
+              <div class="p-h">
+                <h3>Background Videos</h3>
+                <p>Ferri reque integre mea ut, eu eos vide errem noluise se. Putent laoreet et ius utroque dissentias ut.</p>
+              </div>
+            </div>
+          </div>
+          <!-- item-9 -->
+          <div class="col-lg-4">
+            <div class="item d-flex justify-content-around">
+                <div class="icon ">
+                  <i class="fas fa-sliders-h mainColor fa-2x p-2 pr-3"></i>
+                </div>
+              <div class="p-h">
+                <h3>Intro Slider</h3>
+                <p>Ferri reque integre mea ut, eu eos vide errem noluise se. Putent laoreet et ius utroque dissentias ut.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ************************ end service ********************************* -->
+
+    <!-- client -->
+    <section id="client">
+      <div class="container">
+        <!-- content -->
+        <div class="content">
+            <div class="main-text d-flex flex-column ">
+              <h2>Client Reviews</h2>
+            </div>
+            <div class="line"></div>
+            <p class="main-p">Donec purus est, tincidunt eu sodales quis, vehicula quis enim. Morbi dapibus, tellus a gravida faucibus, elit ipsum sollicitudin risus, id ultricies arcu neque eget velit.</p>
+        </div>
+        <!-- testi -->
+
+        <div class="row">
+          <div class="col-lg-12">
+            <div class="client-img d-flex flex-nowrap justify-content-lg-center">
+              <img src="images/client-8.png" class="rounded-circle little-img"/>
+              <img src="images/client-9.png" class="rounded-circle little-img"/>
+              <img src="images/client-1.png"class="rounded-circle big-img" />
+              <img src="images/client-2.png"class="rounded-circle little-img" />
+              <img src="images/client-3.png"class="rounded-circle little-img" />
+            </div>
+          </div>
+        </div>
+          
+          <div class="client-caption m-auto text-center">
+              <h3 class="mt-4 head3">Martin Jack</h3>
+              <h4>From Hooli</h4>
+              <p class="my-5 client-p"><i class="fas fa-quote-left fa-1x"></i>  Aenean varius accumsan eros, id molestie leo <br>vestibulum a. Ut semper dictum feugiat. Integer <br>tincidunt interdum eros ut accumsan.  <i class="fas fa-quote-right fa-1x"></i></p>
+          </div>
+        
+      </div>
+    </section>
+
+    <!-- ************************ end client ********************************* -->
+
+    <!-- contact -->
+    <section id="contact">
+      <div class="container">
+        <!-- content -->
+        <div class="content">
+          <div class="main-text d-flex flex-column ">
+            <h2>Get In Touch</h2>
+          </div>
+          <div class="line"></div>
+          <p class="main-p">Mauris at tempus mi, ut iaculis dui. Integer laoreet mattis justo nec pretium. Ut nibh elit, fermentum vel hendrerit vel, dictum nec velit. Morbi volutpat suscipit.</p>
+        </div>
+        <!-- grid -->
+        <div class="row">
+          <!-- information -->
+          <div class="col-lg-6">
+            <div class="touch">
+              <h2 class="mb-5">Get answers and advices from professional consultants.</h2>
+              <div class="item">
+                <!-- item-1 -->
+                <div class="item-1 d-flex ">
+                  <div class="icon">
+                    <i class="fas fa-map fa-2x mainColor p-2 pr-4"></i>
+                  </div>
+                  <div class="inner">
+                    <h5 class="mb-0">Address</h5>
+                    <p>1650 Lombard Street, San Francisco, CA 94123</p>
+                  </div>
+                </div>
+                <hr>
+                <!-- item-2 -->
+                <div class="item-2 d-flex">
+                  <div class="icon">
+                    <i class="fas fa-mobile-alt fa-3x mainColor p-2 pr-4"></i>
+                  </div>
+                  <div class="inner">
+                    <h5 class="mb-0">Phone</h5>
+                    <p>+1 (415) 876-3250 / +1 (415) 876-3251</p>
+                  </div>
+                </div>
+                <hr>
+                <!-- item-3 -->
+                <div class="item-3 d-flex">
+                  <div class="icon">
+                    <i class="fas fa-envelope fa-2x mainColor p-2 pr-4"></i>
+                  </div>
+                  <div class="inner">
+                    <h5 class="mb-0">Say Hello</h5>
+                    <p>[email protected]</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- form -->
+          <div class="col-lg-6">
+            <form class="d-flex flex-column justify-content-around h-100">
+              <input type="text" placeholder="Name" class="w-100">
+              <input type="email" placeholder="Email" class="w-100">
+              <input type="text" placeholder="Phone" class="w-100">
+              <textarea name="Messege" placeholder="Messege" class="w-100" rows="3"></textarea>
+              <button class="p-2 text-white mainBackgoundColor border-0 rounded w-30"><i class="fab fa-telegram-plane p-2"></i>Send Messege</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ************************ end contact ********************************* -->
+
+    <!--  footer -->
+    <section id="footer">
+      <div class="container">
+        <!-- fixed -->
+        <div class="fixed">
+          <a href="#home"><i class="fas fa-chevron-up"></i></a>
+        </div>
+        <!-- logo -->
+        <div class="logo text-center ">
+          <img src="images/icon.png" alt="">
+        </div>
+        <!-- grid -->
+        <div class="row ">
+          <!-- grid-1 -->
+          <div class="col-lg-2">
+            <div class="item">
+                <h5 class="text-white font-weight-bold mb-3">Contact Info</h5>
+                <p>1650 Lombard Street,San Francisco, CA 94123</p>
+                <p class="mb-0">+1 (415) 876-3250</p>
+                <p class="pro">[email protected]</p>
+            </div>
+          </div>
+          <!-- grid-2 -->
+          <div class="col-lg-2 offset-1">
+            <div class="item">
+                <h5 class="text-white font-weight-bold mb-3">Useful Links</h5>
+                <a href="#" class="text-decoration-none">Support</a>
+                <a href="#" class="text-decoration-none">Privacy Policy</a>
+                <a href="#" class="text-decoration-none">Terms &amp; Conditions</a>
+                <a href="#" class="text-decoration-none">Affiliate Program</a>
+                <a href="#" class="text-decoration-none">Careers</a>
+            </div>
+          </div>
+          <!-- grid-3 -->
+          <div class="col-lg-2 offset-1">
+            <div class="item">
+              <h5 class="text-white font-weight-bold mb-3">Recent Posts</h5>
+              <a href="#" class="text-decoration-none">Sunset in Venice</a>
+              <a href="#" class="text-decoration-none">Aerial View of Village</a>
+              <a href="#" class="text-decoration-none">Lighted Concrete City</a>
+              <a href="#" class="text-decoration-none">The Little Ghost</a>
+              <a href="#" class="text-decoration-none">Royal Oats ft. Waldo</a>
+            </div>
+          </div>
+          <!-- grid-4 -->
+          <div class="col-lg-3 offset-1">
+            <div class="item">
+                <h5 class="text-white font-weight-bold mb-3">Popular Tags</h5>
+                <button>HTML5</button>
+                <button>CSS3</button>
+                <button>jQuery</button>
+                <button>UX / UI</button>
+                <button>Web</button>
+                <button>Graphic</button>
+                <button>Design</button>
+                <button>Development</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ************************ end footer ********************************* -->
+
+    <!-- logo -->
+    <section id="logo">
+      <div class="container">
+        <div class="row d-flex justify-content-between align-items-center">
+          <div class="">
+            <i class="fab fa-twitter"></i>
+            <i class="fab fa-facebook-f"></i>
+            <i class="fab fa-instagram"></i>
+            <i class="fab fa-dribbble"></i>
+            <i class="fab fa-pinterest"></i>
+          </div>
+          <div class="">
+            <p class="spicial">Copyright &copy; 2020 <a class="text-white font-weight-bold text-decoration-none">Angora</a></p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ************************ end logo ********************************* -->
+
+    <script src="js/jquery-3.5.1.slim.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>
